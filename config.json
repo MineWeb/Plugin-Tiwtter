@@ -1,0 +1,27 @@
+{
+    "name": "Twitter",
+    "author": "LaSkyMania",
+    "version": "1.0.0",
+    "admin_menus": {
+        "GLOBAL__ADMIN_PLUGINS": {
+            "Twitter": {
+                "icon": "dove",
+                "route": "/admin/twitter"
+            }
+        }
+    },
+    "navbar_routes": {
+        "Twitter": "/twitter"
+    },
+    "useEvents": false,
+    "permissions": {
+        "available": [],
+        "default": {
+            "0": [],
+            "2": []
+        }
+    },
+    "requirements": {
+        "CMS": "^1.11.0"
+    }
+}

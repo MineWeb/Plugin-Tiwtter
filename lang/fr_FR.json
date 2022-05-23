@@ -1,0 +1,18 @@
+{
+  "TWITTER__ADD": "Nom d'utilisateur de votre Twitter",
+  
+  "GLOBAL__TWITTER__SUCCESS": "Twitter ajouter avec succès !",
+  "GLOBAL__TWITTER__SUBMIT": "Créer",
+  "GLOBAL__TWITTER__EDIT": "Éditer",
+  
+  "TWITTER__ADMIN_LABEL": "Saisissez le nom d'utilisateur du Twitter (Ex: @LaSkyMania)",
+  "TWITTER__ADMIN_SUBTITLE": "@",
+
+  "TWITTER__API": "Twitter actuel",
+  "TWITTER__EMPTY": "Aucun Twitter enregistrer !",
+
+  "TWITTER__ID_EMPTY": "ID vide !",
+  "TWITTER__NAME_EMPTY": "Nom du compte Twitter vide !",
+
+  "ERROR__BAD_REQUEST": "Erreur, mauvaise requête !"
+}
