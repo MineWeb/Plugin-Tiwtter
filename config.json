@@ -1,7 +1,7 @@
 {
     "name": "Twitter",
     "author": "LaSkyMania",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "admin_menus": {
         "GLOBAL__ADMIN_PLUGINS": {
             "Twitter": {
@@ -17,8 +17,7 @@
     "permissions": {
         "available": [],
         "default": {
-            "0": [],
-            "2": []
+            "0": []
         }
     },
     "requirements": {
