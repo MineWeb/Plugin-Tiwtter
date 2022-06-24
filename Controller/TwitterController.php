@@ -5,7 +5,7 @@ class TwitterController extends AppController {
 		$this->loadModel('Twitter.Twitter');
 		$this->set('title_for_layout', 'Twitter');
         $twitter = $this->Twitter->find('first');
-        $this->set(compact('twitters'));
+        $this->set(compact('twitter'));
     }
 
     public function admin_index($id = false){
