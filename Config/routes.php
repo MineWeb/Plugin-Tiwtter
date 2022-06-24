@@ -1,3 +1,3 @@
 <?php
 
-Router::connect('/twitter', ['controller' => 'twitter', 'action' => 'index', 'plugin' => 'twitter']);
+Router::connect('/twitter', ['controller' => 'Twitter', 'action' => 'index', 'plugin' => 'twitter']);
