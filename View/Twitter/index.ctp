@@ -2,7 +2,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<?php foreach ($twitters as $twitter){ ?>
+			<?php if(!empty($twitter['Twitter']['name_twitter'])){ ?>
 				<div class="box">
 					<div class="col-md-12">
 						<h2 class="mt-4 text-center twitter-title">Twitter de <?= $twitter['Twitter']['name_twitter']; ?></h2>
@@ -12,8 +12,7 @@
 						</div>
 					</div>
 				</div>
-			<?php } ?>
-			<?php if(!$twitter['Twitter']['name_twitter']){ ?>
+			<?php } else { ?>
 				<h2 class="text-center twitter-title"><?= $Lang->get("TWITTER__EMPTY"); ?></h2>
 			<?php } ?>
 		</div>
