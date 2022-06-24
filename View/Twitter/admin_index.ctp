@@ -7,7 +7,7 @@
                 </div>
                 <div class="card-body">
                     <?php if(empty($twitter['Twitter']['id'])){ ?>
-                        <form data-redirect-url="<?= $this->Html->url(array('controller' => 'Twitter', 'action' => 'ajax_create', 'admin' => true)) ?>" method="post" data-ajax="true">
+                        <form action="<?= $this->Html->url(array('controller' => 'twitter', 'action' => 'ajax_create', 'admin' => true)) ?>" data-redirect-url="<?= $this->Html->url(array('controller' => 'twitter', 'action' => 'index', 'admin' => true)) ?>" method="post" data-ajax="true">
                             <div class="ajax-msg"></div>
                             <div class="input-group">
                                 <div class="input-group-prepend">
