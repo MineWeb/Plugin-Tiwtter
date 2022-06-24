@@ -17,7 +17,8 @@
     "permissions": {
         "available": [],
         "default": {
-            "0": []
+            "0": [],
+            "2": []
         }
     },
     "requirements": {
